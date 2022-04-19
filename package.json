@@ -1,0 +1,17 @@
+{
+    "name": "typescript_project_template",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/lebrancconvas/Typescript-Project-Template.git",
+    "author": "lebrancconvas <lebrancconvas@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "run": "node dist/app.js",
+        "dev": "tsc && node dist/app.js",
+        "test": "tsc && node dist/app.js"
+    },
+    "dependencies": {
+        "@types/node": "^17.0.25"
+    }
+}
